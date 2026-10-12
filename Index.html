@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>a's 3d prints</title>
+</head>
+<body>
+    <div class="menu">
+        <button class="contact">contact</button>
+        <button class="gallery">gallery</button>
+        <a href="download.html"><button>download page</button></a>
+    </div>
+    <div class="stage">
+        <div class="contacti">
+            <h1 class="h1">contact</h1>
+            <p>contact:</p>
+            <p>this is a site where you can find all types of 3d items.</p>
+            <button class="gallery">gallery</button>
+        </div>
+        <div class="galleryi">
+            <img href="img1.jpg">
+            <img href="img2.jpg">
+            <img href="img3.jpg">
+        </div>
+    </div>
+        <script>
+        const contactBtn = document.querySelector('.contact');
+        const galleryBtn = document.querySelector('.gallery');
+        
+        const contactSlideshow = document.querySelector('.contacti');
+        const gallerySlideshow = document.querySelector('.galleryi');
+
+        // Toggle Contact Slideshow
+        contactBtn.addEventListener('click', () => {
+            contactSlideshow.classList.toggle('is-visible');
+        });
+
+        // Toggle Gallery Slideshow
+        galleryBtn.addEventListener('click', () => {
+            gallerySlideshow.classList.toggle('is-visible');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+button{
+    background-color: lightblue;
+    color:white;
+    border-color: lightblue;
+    border-radius: 50px;
+    width:60;
+    height:25px;
+    cursor:pointer;
+}
+body{
+    font-family:monospace;
+    font-weight: 100;
+}
+.menu{
+    width:80vh;
+    height: 10vh;
+    display:flex;
+    flex-direction: row;
+    background-color: lightcyan;
+}
+.stage{
+    width:80vh;
+    height:80;
+    background-color:lightcyan;
+}
+.h1{
+    font-family:monospace;
+    font-size: x-large;
+}
+p{
+    font-family:monospace;
+    font-size:medium;
+}
+img{
+    width: 100px;
+    height:100px;
+    border-radius:25px;
+    color:black;
+
+}
+.galleryi{
+    width:80vh;
+    height:70vh;
+}
+.contacti{
+    width:80vh;
+    height:70vh;
+}
+        /* Hide your slideshow sections by default */
+        .contacti, .galleryi {
+            display: none; 
+        }
+
+        /* Show them when the button triggers this class */
+        .is-visible {
+            display: block;
+        }
